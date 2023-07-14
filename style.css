@@ -1,5 +1,12 @@
 .mainReviewItem {
     cursor: pointer;
+    position: absolute;
+    left: 22px;
+    padding: 10px;
+    background: aliceblue;
+    border: 2px solid bisque;
+    border-radius: 10px;
+    top: -5px;
 }
 
 .close_window_create_review {
@@ -182,8 +189,7 @@ body {
 
 header {
     position: relative;
-    padding-top: 50px;
-
+    padding-top: 10px;
 }
 
 header .social {
@@ -218,7 +224,7 @@ a {
     border: 2px solid #0078ff;
     border-radius: 50px;
     box-shadow: 0 0 10px darkcyan;
-    margin-left: -15px;
+    margin-left: -33px;
 }
 
 .vk:hover {
@@ -239,6 +245,7 @@ a {
     border: 2px solid bisque;
     border-radius: 10px;
     box-shadow: 0 0 10px bisque;
+    margin-left: -44px;
 }
 
 .call_btn a:hover {
@@ -262,7 +269,10 @@ a {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 30px;
 }
 
 .b-menu-item {
@@ -307,7 +317,7 @@ header, hgroup, main, menu, nav, section, summary {
 }
 
 .width-wrap {
-    width: 940px;
+    width: 280px;
     margin: 0 auto;
     margin-left: 12.5vw;
     text-align: center;
@@ -319,9 +329,9 @@ header, hgroup, main, menu, nav, section, summary {
 }
 
 .underMain {
-    width: 40%;
+    width: 83%;
     height: auto;
-    margin-left: 14.5vw;
+    margin-left: 7.5vw;
     background-color: #fff;
     border-radius: 1vw;
 }
@@ -424,6 +434,12 @@ header, hgroup, main, menu, nav, section, summary {
     border: 2px solid bisque;
 }
 
+.logo img {
+    width: 300px;
+    padding: 57px;
+    margin-top: -50px;
+}
+
 .block {
     display: block;
 }
@@ -440,13 +456,33 @@ header, hgroup, main, menu, nav, section, summary {
         flex-wrap: wrap;
         background: #FFF;
         padding: 10px;
-        margin-top: 0;
+        margin-top: 80px;
         margin-bottom: 30px;
         top: 0;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .cont-box b {
+        margin-top: -255px;
+        position: relative;
+        right: 55px;
     }
 
     .b-menu > .b-menu-item {
-        margin: 10px 20px;
+        margin: 20px 5px;
+    }
+
+    .vk {
+        position: absolute;
+        right: 50px;
+        top: 0;
+    }
+
+    .call_btn a {
+        margin-left: 0;
+        position: absolute;
+        top: 5px;
     }
 
     .social {
@@ -461,10 +497,16 @@ header, hgroup, main, menu, nav, section, summary {
         margin-top: 35px;
         margin-left: 30px;
         box-shadow: 0 0 10px bisque;
+        margin: 65px 50px;
     }
 
     .mainReviewItem:hover {
         box-shadow: none;
+    }
+
+    .miniText {
+        position: relative;
+        right: 48px;
     }
 
     .block {
@@ -548,6 +590,10 @@ header, hgroup, main, menu, nav, section, summary {
         position: sticky;
         align-items: self-start;
         display: flex;
+    }
+
+    .cont-box b {
+        margin-top: 0;
     }
 
     .block {
