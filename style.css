@@ -614,6 +614,32 @@ header, hgroup, main, menu, nav, section, summary {
 
     .cont-box b {
         margin-top: 0;
+        margin-left: 52vW;
+        width: 269px;
+    }
+
+    .social {
+        top: 10vW;
+        left: 33vW;
+    }
+
+    .mainReviewItem {
+        width: 122px;
+        position: relative;
+        top: 128px;
+        left: -67vW;
+    }
+
+    .call_btn a {
+        margin-left: 0;
+        position: absolute;
+        top: 5px;
+        left: 22vW;
+    }
+
+    .miniText {
+        position: relative;
+        right: -46vW;
     }
 
     .block {
