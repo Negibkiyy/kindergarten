@@ -436,7 +436,7 @@ header, hgroup, main, menu, nav, section, summary {
 
 .logo img {
     width: 300px;
-    padding: 57px;
+    padding: 53px 20px;
     margin-top: -50px;
 }
 
@@ -461,6 +461,12 @@ header, hgroup, main, menu, nav, section, summary {
         top: 0;
         flex-direction: row;
         gap: 0;
+    }
+
+    .logo img {
+        width: 300px;
+        padding: 53px 60px;
+        margin-top: -50px;
     }
 
     .cont-box b {
@@ -590,6 +596,20 @@ header, hgroup, main, menu, nav, section, summary {
         position: sticky;
         align-items: self-start;
         display: flex;
+    }
+
+    .b-menu {
+        position: sticky;
+        z-index: 10;
+        display: flex;
+        flex-wrap: wrap;
+        background: #FFF;
+        padding: 10px;
+        margin-top: -32px;
+        margin-bottom: 30px;
+        top: 0;
+        flex-direction: row;
+        gap: 0;
     }
 
     .cont-box b {
