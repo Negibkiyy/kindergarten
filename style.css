@@ -426,12 +426,15 @@ header, hgroup, main, menu, nav, section, summary {
 
 @media (min-width: 761px) {
     .b-menu {
-        position: fixed;
+        width: 42.5vw;
+        height: auto;
+        position:sticky;
+        top: 2vw;
         z-index: 10;
         display: flex;
         flex-wrap: wrap;
-        margin-right: -14px;
-        margin-left: -14px;
+        /* margin-right: -14px; */
+        /* margin-left: -14px; */
         background: #FFF;
         box-shadow: 0 0 10px bisque;
         padding: 10px;
