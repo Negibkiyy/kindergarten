@@ -171,6 +171,7 @@ b {
 body {
     font: 17px 'calibri';
     /* background-image: url(./img/Background.jpg); */
+    background-color: rgb(254,254,254);
     margin: 0;
 }
 
