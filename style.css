@@ -454,7 +454,7 @@ header, hgroup, main, menu, nav, section, summary {
         z-index: 10;
         display: flex;
         flex-wrap: wrap;
-        background: #FFF;
+        /* background: #FFF; */
         padding: 10px;
         margin-top: 80px;
         margin-bottom: 30px;
@@ -500,10 +500,10 @@ header, hgroup, main, menu, nav, section, summary {
         background: aliceblue;
         border: 2px solid bisque;
         border-radius: 10px;
-        margin-top: 35px;
+        margin-top: 1.5vw;
         margin-left: 30px;
         box-shadow: 0 0 10px bisque;
-        margin: 65px 50px;
+        /* margin: 65px 50px; */
     }
 
     .mainReviewItem:hover {
@@ -603,10 +603,11 @@ header, hgroup, main, menu, nav, section, summary {
         z-index: 10;
         display: flex;
         flex-wrap: wrap;
-        background: #FFF;
+        /* background: #FFF; */
         padding: 10px;
         margin-top: -32px;
         margin-bottom: 30px;
+        margin-left: 22.5vw;
         top: 0;
         flex-direction: row;
         gap: 0;
@@ -624,10 +625,8 @@ header, hgroup, main, menu, nav, section, summary {
     }
 
     .mainReviewItem {
-        width: 122px;
-        position: relative;
-        top: 128px;
-        left: -67vW;
+        width: 5vw;
+        margin-left: 17vw ;
     }
 
     .call_btn a {
