@@ -6,7 +6,8 @@
     background: aliceblue;
     border: 2px solid bisque;
     border-radius: 10px;
-    top: -5px;
+    top: 55px;
+    width: 100px;
 }
 
 .close_window_create_review {
@@ -126,14 +127,6 @@ textarea {
     box-sizing: border-box;
 }
 
-/** {*/
-/*    border: 0;*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*    vertical-align: top;*/
-/*    box-sizing: border-box;*/
-/*}*/
-
 div {
     display: block;
 }
@@ -184,8 +177,8 @@ body {
 }
 
 .row {
-    margin-right: -8vw;
-    margin-left: -8vw;
+    margin-right: 0;
+    margin-left: -6vw;
 }
 
 header {
@@ -436,9 +429,8 @@ header, hgroup, main, menu, nav, section, summary {
 }
 
 .logo img {
-    width: 300px;
-    padding: 53px 20px;
-    margin-top: -50px;
+    width: 266px;
+    margin: 5px auto auto 20px;
 }
 
 .block {
@@ -449,7 +441,7 @@ header, hgroup, main, menu, nav, section, summary {
     display: none;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
     .b-menu {
         position: sticky;
         z-index: 10;
@@ -501,10 +493,11 @@ header, hgroup, main, menu, nav, section, summary {
         background: aliceblue;
         border: 2px solid bisque;
         border-radius: 10px;
-        margin-top: 1.5vw;
         margin-left: 30px;
         box-shadow: 0 0 10px bisque;
-        /* margin: 65px 50px; */
+        left: auto;
+        top: 100px;
+        right: 155px;
     }
 
     .mainReviewItem:hover {
@@ -525,149 +518,13 @@ header, hgroup, main, menu, nav, section, summary {
     }
 }
 
-@media (min-width: 980px) {
-    .logo {
-        display: block;
-        height: auto;
-    }
-
-    .mainLogo {
-        display: block;
-        width: 100%;
-        border-radius: 10px;
-    }
-
-    .mainLogo:hover {
-        box-shadow: none;
-    }
-
-    .cont-box {
-        float: right;
-    }
-
-    header {
-        padding-bottom: 32px;
-    }
-
-    .block {
-        display: block;
-    }
-
-    .none {
-        display: none;
-    }
-}
-
-@media (min-width: 992px) {
-    .col-md-3 {
-        width: 25%;
-    }
-
-    .col-md-1, .col-md-10, .col-md-11, .col-md-12,
-    .col-md-2, .col-md-3, .col-md-4, .col-md-5,
-    .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
-        float: left;
-    }
-
-    .col-md-6 {
-        width: 50%;
-    }
-
-    .container {
-        width: 970px;
-    }
-
-    .block {
-        display: block;
-    }
-
-    .none {
-        display: none;
-    }
-}
-
-@media (min-width: 1000px) {
-    .cont-box {
-        z-index: 5;
-    }
-
-    .menu-top {
-        z-index: 2;
-        margin-left: 8vw;
-        position: sticky;
-        align-items: self-start;
-        display: flex;
-    }
-
-    .b-menu {
-        position: sticky;
-        z-index: 10;
-        display: flex;
-        flex-wrap: wrap;
-        /* background: #FFF; */
-        padding: 10px;
-        margin-top: -32px;
-        margin-bottom: 30px;
-        margin-left: 22.5vw;
-        top: 0;
-        flex-direction: row;
-        gap: 0;
-    }
-
-    .cont-box b {
-        margin-top: 0;
-        margin-left: 52vW;
-        width: 269px;
-    }
-
-    .social {
-        top: 10vW;
-        left: 33vW;
-    }
-
-    .mainReviewItem {
-        width: 5vw;
-        margin-left: 17vw ;
-    }
-
-    .call_btn a {
-        margin-left: 0;
-        position: absolute;
-        top: 5px;
-        left: 22vW;
-    }
-
-    .miniText {
-        position: relative;
-        right: -46vW;
-    }
-
-    .block {
-        display: block;
-    }
-
-    .none {
-        display: none;
-    }
-}
-
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
     .container {
         width: 1170px;
     }
 
-    .block {
-        display: block;
-    }
-
-    .none {
-        display: none;
-    }
-}
-
-@media (min-width: 1920px) {
-    .winter-box {
-        min-height: 700px;
+    header .social {
+        margin-top: 0;
     }
 
     .block {
