@@ -30,7 +30,7 @@ link_create_review.addEventListener('click', (event) => {
     for (let item of content_wrap) {
         item.classList.add('none')
     }
-    send_review.classList.add('block')
+    send_review.classList.add('flex')
     for (let b_menu of document.querySelectorAll('.b-menu')) {
         b_menu.classList.add('none')
     }

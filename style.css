@@ -1,13 +1,19 @@
 .mainReviewItem {
     cursor: pointer;
     position: absolute;
-    left: 22px;
     padding: 10px;
-    background: aliceblue;
     border: 2px solid bisque;
     border-radius: 10px;
     top: 55px;
     width: 100px;
+    background: url("./img/5766014.png") no-repeat 0 aliceblue;
+    background-size: 100%;
+    height: 125px;
+    z-index: 999;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .close_window_create_review {
@@ -42,9 +48,8 @@ textarea {
     border: 2px solid bisque;
     border-radius: 10px;
     width: max-content;
-    height: 46px;
+    height: 20px;
     cursor: pointer;
-
 }
 
 .min_height {
@@ -55,12 +60,34 @@ textarea {
     background: #FFF;
     padding: 10px;
     border: 2px solid bisque;
-    height: 52vh;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 0 0 10px bisque;
     display: none;
-    margin-top: 20px;
     margin-left: 20px;
+}
+
+.label_name {
+    cursor: pointer;
+    width: max-content;
+    background: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px bisque;
+}
+
+.label_review {
+    cursor: pointer;
+    width: max-content;
+}
+
+input {
+    outline: none;
+}
+
+.window_create_review h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .inner_review {
@@ -84,6 +111,10 @@ textarea {
     border: 2px solid bisque;
     border-radius: 10px;
     margin: 15px;
+}
+
+.mainReview img {
+    cursor: pointer;
 }
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12,
@@ -160,7 +191,7 @@ div {
     text-align: right;
     padding: 10px;
     margin-top: 15px;
-    margin-left: 100px;
+    margin-left: 132px;
     border-radius: 10px;
 }
 
@@ -171,7 +202,6 @@ b {
 
 body {
     font: 17px 'calibri';
-    /* background-image: url(./img/Background.jpg); */
     background-color: rgb(254,254,254);
     margin: 0;
 }
@@ -269,12 +299,11 @@ a {
 
 .b-menu {
     padding: 0;
-    margin: 0;
     list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-bottom: 30px;
+    margin: 45px 0 30px;
 }
 
 .b-menu-item {
@@ -441,12 +470,26 @@ header, hgroup, main, menu, nav, section, summary {
     margin: 5px auto auto 20px;
 }
 
+.text_about_call {
+    margin-top: 0;
+}
+
+.flex {
+    display: flex;
+}
+
 .block {
     display: block;
 }
 
 .none {
     display: none;
+}
+
+@media (min-width: 387px) {
+    .b-menu {
+        margin: 60px 0 30px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -498,7 +541,6 @@ header, hgroup, main, menu, nav, section, summary {
 
     .mainReviewItem {
         padding: 10px;
-        background: aliceblue;
         border: 2px solid bisque;
         border-radius: 10px;
         margin-left: 30px;
@@ -506,6 +548,9 @@ header, hgroup, main, menu, nav, section, summary {
         left: auto;
         top: 100px;
         right: 155px;
+        background-size: 85px;
+        height: 100%;
+        width: 66px;
     }
 
     .mainReviewItem:hover {
