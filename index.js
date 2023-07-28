@@ -31,6 +31,18 @@ link_create_review.addEventListener('click', (event) => {
         item.classList.add('none')
     }
     send_review.classList.add('block')
+    for (let b_menu of document.querySelectorAll('.b-menu')) {
+        b_menu.classList.add('none')
+    }
+    for (let Better of document.querySelectorAll('.Better')) {
+        Better.classList.add('none')
+    }
+    for (let our_staff of document.querySelectorAll('.our_staff')) {
+        our_staff.classList.add('none')
+    }
+    for (let Followers of document.querySelectorAll('.Followers')) {
+        Followers.classList.add('none')
+    }
 })
 
 close_window_create_review.addEventListener('click', () => {
@@ -52,6 +64,18 @@ close_window_create_review.addEventListener('click', () => {
         item.classList.remove('none')
     }
     send_review.classList.remove('block')
+    for (let b_menu of document.querySelectorAll('.b-menu')) {
+        b_menu.classList.remove('none')
+    }
+    for (let Better of document.querySelectorAll('.Better')) {
+        Better.classList.remove('none')
+    }
+    for (let our_staff of document.querySelectorAll('.our_staff')) {
+        our_staff.classList.remove('none')
+    }
+    for (let Followers of document.querySelectorAll('.Followers')) {
+        Followers.classList.remove('none')
+    }
 })
 
 send_review.addEventListener('click', () => {

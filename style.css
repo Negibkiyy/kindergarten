@@ -12,15 +12,17 @@
 
 .close_window_create_review {
     display: none;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 44px;
     background: url("././img/close_window.png") no-repeat 5px 5px, #FFF;
-    background-size: 44px;
+    background-size: 33px;
     margin-bottom: 20px;
     border: 2px solid bisque;
     box-shadow: 0 0 10px bisque;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 33px;
+    margin-left: 20px;
 }
 
 textarea {
@@ -53,10 +55,12 @@ textarea {
     background: #FFF;
     padding: 10px;
     border: 2px solid bisque;
-    height: 85vh;
+    height: 52vh;
     border-radius: 10px;
     box-shadow: 0 0 10px bisque;
     display: none;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .inner_review {
@@ -74,8 +78,12 @@ textarea {
     margin: 20px;
 }
 
-.body_overflow_hidden {
-    overflow: hidden;
+.NotFoundReview {
+    background: aliceblue;
+    padding: 10px;
+    border: 2px solid bisque;
+    border-radius: 10px;
+    margin: 15px;
 }
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12,
@@ -380,9 +388,9 @@ header, hgroup, main, menu, nav, section, summary {
     background: aliceblue;
     border: 2px solid bisque;
     border-radius: 10px;
-    width: 100%;
+    width: 93%;
     padding: 10px;
-    height: 60vh;
+    height: 9vh;
     resize: none;
 }
 
@@ -391,7 +399,7 @@ header, hgroup, main, menu, nav, section, summary {
     background: aliceblue;
     border: 2px solid bisque;
     border-radius: 10px;
-    width: 100%;
+    width: 93%;
     margin-top: 15px;
 }
 
