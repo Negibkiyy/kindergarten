@@ -5,11 +5,12 @@
     border: 2px solid bisque;
     border-radius: 10px;
     top: 55px;
-    width: 100px;
+    width: 70px;
     background: url("./img/5766014.png") no-repeat 0 aliceblue;
-    background-size: 100%;
-    height: 125px;
+    background-size: 90px;
+    height: 85px;
     z-index: 999;
+    margin-left: 10px;
 }
 
 a:hover {
@@ -28,7 +29,6 @@ a:hover {
     border-radius: 10px;
     cursor: pointer;
     margin-top: 33px;
-    margin-left: 20px;
 }
 
 textarea {
@@ -60,20 +60,15 @@ textarea {
     background: #FFF;
     padding: 10px;
     border: 2px solid bisque;
-    height: 300px;
+    height: 320px;
     border-radius: 10px;
     box-shadow: 0 0 10px bisque;
     display: none;
-    margin-left: 20px;
 }
 
 .label_name {
     cursor: pointer;
     width: max-content;
-    background: aliceblue;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px bisque;
 }
 
 .label_review {
@@ -216,7 +211,7 @@ body {
 
 .row {
     margin-right: 0;
-    margin-left: -6vw;
+    margin-left: 0;
 }
 
 header {
@@ -303,7 +298,12 @@ a {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin: 45px 0 30px;
+    margin: 0 0 30px;
+}
+
+.div_flex {
+    display: flex;
+    flex-direction: column;
 }
 
 .b-menu-item {
@@ -430,6 +430,7 @@ header, hgroup, main, menu, nav, section, summary {
     border-radius: 10px;
     width: 93%;
     margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .error {
@@ -493,12 +494,15 @@ header, hgroup, main, menu, nav, section, summary {
 }
 
 @media (min-width: 768px) {
+    .window_create_review {
+        height: 340px;
+    }
+
     .b-menu {
         position: sticky;
         z-index: 10;
         display: flex;
         flex-wrap: wrap;
-        /* background: #FFF; */
         padding: 10px;
         margin-top: 80px;
         margin-bottom: 30px;
@@ -572,12 +576,12 @@ header, hgroup, main, menu, nav, section, summary {
 }
 
 @media (min-width: 1024px) {
-    .container {
-        width: 1170px;
-    }
-
     header .social {
         margin-top: 0;
+    }
+
+    .window_create_review {
+        height: 100%;
     }
 
     .block {
