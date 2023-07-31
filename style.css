@@ -201,10 +201,6 @@ body {
     margin: 0;
 }
 
-.b-menu-link:hover {
-    text-decoration: 2px solid underline;
-}
-
 .mainReview {
     text-align: center;
 }
@@ -496,6 +492,14 @@ header, hgroup, main, menu, nav, section, summary {
 }
 
 @media (min-width: 768px) {
+    .b-menu-link {
+        box-shadow: 0 0 10px bisque;
+    }
+
+    .b-menu-link:hover {
+        box-shadow: none;
+    }
+
     .window_create_review {
         height: 340px;
     }
