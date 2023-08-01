@@ -146,3 +146,15 @@ fetch(`${api_url}/all_review`, {
                 }
             }))
     })
+
+// random generate color
+
+let colors = ["black", "white"]
+
+function getRandomInt(max) {
+    return colors[Math.floor(Math.random() * max)];
+}
+
+console.log(getRandomInt(colors.length))
+
+// finish work method
