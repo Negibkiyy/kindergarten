@@ -138,8 +138,8 @@ fetch(`${api_url}/all_review`, {
                     data.forEach(item => {
                         content_review.innerHTML+=`
                     <div class="inner_review">
-                        <div class="author_review">${item.author_review}</div>
                         <div class="description_review">${item.description_review}</div>
+                        <div class="author_review">${item.author_review}</div>
                     </div>
                 `
                     })
