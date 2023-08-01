@@ -247,13 +247,19 @@ a {
     background: #0078ff;
     padding: 10px;
     border: 2px solid #0078ff;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 0 0 10px darkcyan;
-    margin-left: -33px;
+    margin-left: -77px;
 }
 
 .vk:hover {
     box-shadow: none;
+}
+
+.inst {
+    width: 63px;
+    margin-left: -11px;
+    cursor: pointer;
 }
 
 .about_us, .contact, .our_staff, .Followers {
