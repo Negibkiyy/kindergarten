@@ -104,48 +104,14 @@ send_review.addEventListener('click', () => {
         console.log(description_review.value)
         console.log(author_review.value)
 
-        fetch(`${api_url}/write_review/${author_review.value}/${description_review.value}`, {
-            headers: new Headers({
-                'Content-Type': 'application/json'
-            }),
-            mode: "no-cors",
-            method: 'POST'
-        })
-            .then(res => console.log(res))
+        content_review.innerHTML+=`
+            <div class="inner_review">
+                <div class="description_review">${description_review.value}</div>
+                <div class="author_review">${author_review.value}</div>
+            </div>
+        `
     }
 })
-
-fetch(`${api_url}/all_review`, {
-    headers: new Headers({
-        'Content-Type': 'application/json'
-    }),
-    mode: "cors",
-    method: 'GET'
-})
-    .then(response => {
-        console.log(response.json().then(data => {
-                console.log(data.length)
-
-                if (data.length === 0) {
-                    content_review.innerHTML+=`
-                <div class="NotFoundReview">
-                    Отзывов нет
-                </div>
-            `
-                }
-
-                else {
-                    data.forEach(item => {
-                        content_review.innerHTML+=`
-                    <div class="inner_review">
-                        <div class="description_review">${item.description_review}</div>
-                        <div class="author_review">${item.author_review}</div>
-                    </div>
-                `
-                    })
-                }
-            }))
-    })
 
 // random generate color
 
