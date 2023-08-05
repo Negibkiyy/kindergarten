@@ -124,3 +124,6 @@ function getRandomInt(max) {
 console.log(getRandomInt(colors.length))
 
 // finish work method
+
+// method for rate in review
+

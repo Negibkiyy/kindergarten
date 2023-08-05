@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rates.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,13 +20,34 @@
                     <h1>Отзыв</h1>
 
                     <div class="div_flex">
-                        <label for="enter_name_review" class="label_name">Имя</label>
-                        <input type="text" id="enter_name_review" placeholder="Введите имя..." class="enter_name_review" required>
+                        <input type="file">
+                    </div>
+
+                    <div class="div_flex">
+                        <label for="enter_name_review" class="label_name">Автор отзыва</label>
+                        <input type="text" id="enter_name_review" placeholder="мама Ксюши Ильиной..." class="enter_name_review" required>
                     </div>
 
                     <div class="div_flex">
                         <label for="TextAreaCreateReview" class="label_review">Отзыв</label>
                         <textarea id="TextAreaCreateReview" placeholder="Напишите отзыв..." required class="TextAreaCreateReview"></textarea>
+                    </div>
+
+                    <div class="div_flex">
+                        <label class="label_review">Рейтинг садика</label>
+
+                        <div class="rating-area">
+                            <input type="radio" id="star-5" name="rating" value="5">
+                            <label for="star-5" title="Оценка «5»"></label>
+                            <input type="radio" id="star-4" name="rating" value="4">
+                            <label for="star-4" title="Оценка «4»"></label>
+                            <input type="radio" id="star-3" name="rating" value="3">
+                            <label for="star-3" title="Оценка «3»"></label>
+                            <input type="radio" id="star-2" name="rating" value="2">
+                            <label for="star-2" title="Оценка «2»"></label>
+                            <input type="radio" id="star-1" name="rating" value="1">
+                            <label for="star-1" title="Оценка «1»"></label>
+                        </div>
                     </div>
 
                     <div class="send_review">Отправить</div>
