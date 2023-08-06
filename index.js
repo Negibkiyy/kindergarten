@@ -491,8 +491,341 @@ setInterval(() => {
     i+=1
     console.log(i)
 
+    if (i === 1) {
+        console.log('Первый слайд')
+        // remove all active_class from active points
+
+        all_points[0][0].classList.remove('active_point')
+        all_points[0][1].classList.remove('active_point')
+        all_points[0][2].classList.remove('active_point')
+        all_points[0][3].classList.remove('active_point')
+        all_points[0][4].classList.remove('active_point')
+        all_points[0][5].classList.remove('active_point')
+        all_points[0][6].classList.remove('active_point')
+
+        // finished remove
+
+        // add active point on click point
+
+        // event.currentTarget.classList.add('active_point')
+
+        // finished active point on click point
+
+        // remove all class
+        all_comment[0][0].classList.remove('not_visible')
+        all_comment[0][1].classList.remove('not_visible')
+        all_comment[0][2].classList.remove('not_visible')
+        all_comment[0][3].classList.remove('not_visible')
+        all_comment[0][4].classList.remove('not_visible')
+        all_comment[0][5].classList.remove('not_visible')
+        all_comment[0][6].classList.remove('not_visible')
+
+        all_comment[0][0].classList.remove('active_comment')
+        all_comment[0][1].classList.remove('active_comment')
+        all_comment[0][2].classList.remove('active_comment')
+        all_comment[0][3].classList.remove('active_comment')
+        all_comment[0][4].classList.remove('active_comment')
+        all_comment[0][5].classList.remove('active_comment')
+        all_comment[0][6].classList.remove('active_comment')
+
+        // finished remove
+
+        all_comment[0][0].classList.add('active_comment')
+        all_comment[0][1].classList.add('not_visible')
+        all_comment[0][2].classList.add('not_visible')
+        all_comment[0][3].classList.add('not_visible')
+        all_comment[0][4].classList.add('not_visible')
+        all_comment[0][5].classList.add('not_visible')
+        all_comment[0][6].classList.add('not_visible')
+    }
+
+    else if (i === 2) {
+        console.log('Второй слайд')
+        // remove all active_class from active points
+
+        all_points[0][0].classList.remove('active_point')
+        all_points[0][1].classList.remove('active_point')
+        all_points[0][2].classList.remove('active_point')
+        all_points[0][3].classList.remove('active_point')
+        all_points[0][4].classList.remove('active_point')
+        all_points[0][5].classList.remove('active_point')
+        all_points[0][6].classList.remove('active_point')
+
+        // finished remove
+
+        // add active point on click point
+
+        // event.currentTarget.classList.add('active_point')
+
+        // finished active point on click point
+
+        // remove all class
+        all_comment[0][0].classList.remove('not_visible')
+        all_comment[0][1].classList.remove('not_visible')
+        all_comment[0][2].classList.remove('not_visible')
+        all_comment[0][3].classList.remove('not_visible')
+        all_comment[0][4].classList.remove('not_visible')
+        all_comment[0][5].classList.remove('not_visible')
+        all_comment[0][6].classList.remove('not_visible')
+
+        all_comment[0][0].classList.remove('active_comment')
+        all_comment[0][1].classList.remove('active_comment')
+        all_comment[0][2].classList.remove('active_comment')
+        all_comment[0][3].classList.remove('active_comment')
+        all_comment[0][4].classList.remove('active_comment')
+        all_comment[0][5].classList.remove('active_comment')
+        all_comment[0][6].classList.remove('active_comment')
+
+        // finished remove
+
+        all_comment[0][0].classList.add('not_visible')
+        all_comment[0][1].classList.add('active_comment')
+        all_comment[0][2].classList.add('not_visible')
+        all_comment[0][3].classList.add('not_visible')
+        all_comment[0][4].classList.add('not_visible')
+        all_comment[0][5].classList.add('not_visible')
+        all_comment[0][6].classList.add('not_visible')
+    }
+
+    else if (i === 3) {
+        console.log('Третий слайд')
+        // remove all active_class from active points
+
+        all_points[0][0].classList.remove('active_point')
+        all_points[0][1].classList.remove('active_point')
+        all_points[0][2].classList.remove('active_point')
+        all_points[0][3].classList.remove('active_point')
+        all_points[0][4].classList.remove('active_point')
+        all_points[0][5].classList.remove('active_point')
+        all_points[0][6].classList.remove('active_point')
+
+        // finished remove
+
+        // add active point on click point
+
+        // event.currentTarget.classList.add('active_point')
+
+        // finished active point on click point
+
+        // remove all class
+        all_comment[0][0].classList.remove('not_visible')
+        all_comment[0][1].classList.remove('not_visible')
+        all_comment[0][2].classList.remove('not_visible')
+        all_comment[0][3].classList.remove('not_visible')
+        all_comment[0][4].classList.remove('not_visible')
+        all_comment[0][5].classList.remove('not_visible')
+        all_comment[0][6].classList.remove('not_visible')
+
+        all_comment[0][0].classList.remove('active_comment')
+        all_comment[0][1].classList.remove('active_comment')
+        all_comment[0][2].classList.remove('active_comment')
+        all_comment[0][3].classList.remove('active_comment')
+        all_comment[0][4].classList.remove('active_comment')
+        all_comment[0][5].classList.remove('active_comment')
+        all_comment[0][6].classList.remove('active_comment')
+
+        // finished remove
+
+        all_comment[0][0].classList.add('not_visible')
+        all_comment[0][1].classList.add('not_visible')
+        all_comment[0][2].classList.add('active_comment')
+        all_comment[0][3].classList.add('not_visible')
+        all_comment[0][4].classList.add('not_visible')
+        all_comment[0][5].classList.add('not_visible')
+        all_comment[0][6].classList.add('not_visible')
+    }
+
+    else if (i === 4) {
+        console.log('Четвёртый слайд')
+        // remove all active_class from active points
+
+        all_points[0][0].classList.remove('active_point')
+        all_points[0][1].classList.remove('active_point')
+        all_points[0][2].classList.remove('active_point')
+        all_points[0][3].classList.remove('active_point')
+        all_points[0][4].classList.remove('active_point')
+        all_points[0][5].classList.remove('active_point')
+        all_points[0][6].classList.remove('active_point')
+
+        // finished remove
+
+        // add active point on click point
+
+        // event.currentTarget.classList.add('active_point')
+
+        // finished active point on click point
+
+        // remove all class
+        all_comment[0][0].classList.remove('not_visible')
+        all_comment[0][1].classList.remove('not_visible')
+        all_comment[0][2].classList.remove('not_visible')
+        all_comment[0][3].classList.remove('not_visible')
+        all_comment[0][4].classList.remove('not_visible')
+        all_comment[0][5].classList.remove('not_visible')
+        all_comment[0][6].classList.remove('not_visible')
+
+        all_comment[0][0].classList.remove('active_comment')
+        all_comment[0][1].classList.remove('active_comment')
+        all_comment[0][2].classList.remove('active_comment')
+        all_comment[0][3].classList.remove('active_comment')
+        all_comment[0][4].classList.remove('active_comment')
+        all_comment[0][5].classList.remove('active_comment')
+        all_comment[0][6].classList.remove('active_comment')
+
+        // finished remove
+
+        all_comment[0][0].classList.add('not_visible')
+        all_comment[0][1].classList.add('not_visible')
+        all_comment[0][2].classList.add('not_visible')
+        all_comment[0][3].classList.add('active_comment')
+        all_comment[0][4].classList.add('not_visible')
+        all_comment[0][5].classList.add('not_visible')
+        all_comment[0][6].classList.add('not_visible')
+    }
+
+    else if (i === 5) {
+        console.log('Пятый слайд')
+        // remove all active_class from active points
+
+        all_points[0][0].classList.remove('active_point')
+        all_points[0][1].classList.remove('active_point')
+        all_points[0][2].classList.remove('active_point')
+        all_points[0][3].classList.remove('active_point')
+        all_points[0][4].classList.remove('active_point')
+        all_points[0][5].classList.remove('active_point')
+        all_points[0][6].classList.remove('active_point')
+
+        // finished remove
+
+        // add active point on click point
+
+        // event.currentTarget.classList.add('active_point')
+
+        // finished active point on click point
+
+        // remove all class
+        all_comment[0][0].classList.remove('not_visible')
+        all_comment[0][1].classList.remove('not_visible')
+        all_comment[0][2].classList.remove('not_visible')
+        all_comment[0][3].classList.remove('not_visible')
+        all_comment[0][4].classList.remove('not_visible')
+        all_comment[0][5].classList.remove('not_visible')
+        all_comment[0][6].classList.remove('not_visible')
+
+        all_comment[0][0].classList.remove('active_comment')
+        all_comment[0][1].classList.remove('active_comment')
+        all_comment[0][2].classList.remove('active_comment')
+        all_comment[0][3].classList.remove('active_comment')
+        all_comment[0][4].classList.remove('active_comment')
+        all_comment[0][5].classList.remove('active_comment')
+        all_comment[0][6].classList.remove('active_comment')
+
+        // finished remove
+
+        all_comment[0][0].classList.add('not_visible')
+        all_comment[0][1].classList.add('not_visible')
+        all_comment[0][2].classList.add('not_visible')
+        all_comment[0][3].classList.add('not_visible')
+        all_comment[0][4].classList.add('active_comment')
+        all_comment[0][5].classList.add('not_visible')
+        all_comment[0][6].classList.add('not_visible')
+    }
+
+    else if (i === 6) {
+        console.log('Шестой слайд')
+        // remove all active_class from active points
+
+        all_points[0][0].classList.remove('active_point')
+        all_points[0][1].classList.remove('active_point')
+        all_points[0][2].classList.remove('active_point')
+        all_points[0][3].classList.remove('active_point')
+        all_points[0][4].classList.remove('active_point')
+        all_points[0][5].classList.remove('active_point')
+        all_points[0][6].classList.remove('active_point')
+
+        // finished remove
+
+        // add active point on click point
+
+        // event.currentTarget.classList.add('active_point')
+
+        // finished active point on click point
+
+        // remove all class
+        all_comment[0][0].classList.remove('not_visible')
+        all_comment[0][1].classList.remove('not_visible')
+        all_comment[0][2].classList.remove('not_visible')
+        all_comment[0][3].classList.remove('not_visible')
+        all_comment[0][4].classList.remove('not_visible')
+        all_comment[0][5].classList.remove('not_visible')
+        all_comment[0][6].classList.remove('not_visible')
+
+        all_comment[0][0].classList.remove('active_comment')
+        all_comment[0][1].classList.remove('active_comment')
+        all_comment[0][2].classList.remove('active_comment')
+        all_comment[0][3].classList.remove('active_comment')
+        all_comment[0][4].classList.remove('active_comment')
+        all_comment[0][5].classList.remove('active_comment')
+        all_comment[0][6].classList.remove('active_comment')
+
+        // finished remove
+
+        all_comment[0][0].classList.add('not_visible')
+        all_comment[0][1].classList.add('not_visible')
+        all_comment[0][2].classList.add('not_visible')
+        all_comment[0][3].classList.add('not_visible')
+        all_comment[0][4].classList.add('not_visible')
+        all_comment[0][5].classList.add('active_comment')
+        all_comment[0][6].classList.add('not_visible')
+    }
+
     if (i === 7) {
+        console.log('Седьмой слайд')
         i=0
+        // remove all active_class from active points
+
+        all_points[0][0].classList.remove('active_point')
+        all_points[0][1].classList.remove('active_point')
+        all_points[0][2].classList.remove('active_point')
+        all_points[0][3].classList.remove('active_point')
+        all_points[0][4].classList.remove('active_point')
+        all_points[0][5].classList.remove('active_point')
+        all_points[0][6].classList.remove('active_point')
+
+        // finished remove
+
+        // add active point on click point
+
+        // event.currentTarget.classList.add('active_point')
+
+        // finished active point on click point
+
+        // remove all class
+        all_comment[0][0].classList.remove('not_visible')
+        all_comment[0][1].classList.remove('not_visible')
+        all_comment[0][2].classList.remove('not_visible')
+        all_comment[0][3].classList.remove('not_visible')
+        all_comment[0][4].classList.remove('not_visible')
+        all_comment[0][5].classList.remove('not_visible')
+        all_comment[0][6].classList.remove('not_visible')
+
+        all_comment[0][0].classList.remove('active_comment')
+        all_comment[0][1].classList.remove('active_comment')
+        all_comment[0][2].classList.remove('active_comment')
+        all_comment[0][3].classList.remove('active_comment')
+        all_comment[0][4].classList.remove('active_comment')
+        all_comment[0][5].classList.remove('active_comment')
+        all_comment[0][6].classList.remove('active_comment')
+
+        // finished remove
+
+        all_comment[0][0].classList.add('not_visible')
+        all_comment[0][1].classList.add('not_visible')
+        all_comment[0][2].classList.add('not_visible')
+        all_comment[0][3].classList.add('not_visible')
+        all_comment[0][4].classList.add('not_visible')
+        all_comment[0][5].classList.add('not_visible')
+        all_comment[0][6].classList.add('active_comment')
     }
 
 }, 5000)
