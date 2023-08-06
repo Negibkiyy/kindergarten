@@ -115,7 +115,7 @@ send_review.addEventListener('click', () => {
 
 // random generate color
 
-let colors = ["black", "white"]
+let colors = ["#0082FA", "#5EAEF8", "#00FADC", "#00FA64", "#0082FA", "#AA00FA"]
 
 function getRandomInt(max) {
     return colors[Math.floor(Math.random() * max)];
@@ -127,3 +127,372 @@ console.log(getRandomInt(colors.length))
 
 // method for rate in review
 
+console.log(document.querySelector('.content-review'))
+
+let all_comment = []
+
+all_comment.push(document.querySelectorAll('.inner_review'))
+
+console.log(all_comment[0])
+
+console.log(all_comment[0][0])
+
+let all_points = []
+
+all_points.push(document.querySelectorAll('.point'))
+
+console.log(all_points)
+
+for (let PointItter of document.querySelectorAll('.point')) {
+    PointItter.addEventListener('click', (event) => {
+        console.log(event.currentTarget.querySelector('.p_point').textContent)
+
+        // console.log(typeof event.currentTarget.textContent)
+
+        if (event.currentTarget.querySelector('.p_point').textContent === "1") {
+            // remove all active_class from active points
+
+            all_points[0][0].classList.remove('active_point')
+            all_points[0][1].classList.remove('active_point')
+            all_points[0][2].classList.remove('active_point')
+            all_points[0][3].classList.remove('active_point')
+            all_points[0][4].classList.remove('active_point')
+            all_points[0][5].classList.remove('active_point')
+            all_points[0][6].classList.remove('active_point')
+
+            // finished remove
+
+            // add active point on click point
+
+            event.currentTarget.classList.add('active_point')
+
+            // finished active point on click point
+
+            // remove all class
+            all_comment[0][0].classList.remove('not_visible')
+            all_comment[0][1].classList.remove('not_visible')
+            all_comment[0][2].classList.remove('not_visible')
+            all_comment[0][3].classList.remove('not_visible')
+            all_comment[0][4].classList.remove('not_visible')
+            all_comment[0][5].classList.remove('not_visible')
+            all_comment[0][6].classList.remove('not_visible')
+
+            all_comment[0][0].classList.remove('active_comment')
+            all_comment[0][1].classList.remove('active_comment')
+            all_comment[0][2].classList.remove('active_comment')
+            all_comment[0][3].classList.remove('active_comment')
+            all_comment[0][4].classList.remove('active_comment')
+            all_comment[0][5].classList.remove('active_comment')
+            all_comment[0][6].classList.remove('active_comment')
+
+            // finished remove
+
+            all_comment[0][0].classList.add('active_comment')
+            all_comment[0][1].classList.add('not_visible')
+            all_comment[0][2].classList.add('not_visible')
+            all_comment[0][3].classList.add('not_visible')
+            all_comment[0][4].classList.add('not_visible')
+            all_comment[0][5].classList.add('not_visible')
+            all_comment[0][6].classList.add('not_visible')
+        }
+
+        else if (event.currentTarget.querySelector('.p_point').textContent === "2") {
+            // remove all active_class from active points
+
+            all_points[0][0].classList.remove('active_point')
+            all_points[0][1].classList.remove('active_point')
+            all_points[0][2].classList.remove('active_point')
+            all_points[0][3].classList.remove('active_point')
+            all_points[0][4].classList.remove('active_point')
+            all_points[0][5].classList.remove('active_point')
+            all_points[0][6].classList.remove('active_point')
+
+            // finished remove
+
+            // add active point on click point
+
+            event.currentTarget.classList.add('active_point')
+
+            // finished active point on click point
+
+            // remove all class
+            all_comment[0][0].classList.remove('not_visible')
+            all_comment[0][1].classList.remove('not_visible')
+            all_comment[0][2].classList.remove('not_visible')
+            all_comment[0][3].classList.remove('not_visible')
+            all_comment[0][4].classList.remove('not_visible')
+            all_comment[0][5].classList.remove('not_visible')
+            all_comment[0][6].classList.remove('not_visible')
+
+            all_comment[0][0].classList.remove('active_comment')
+            all_comment[0][1].classList.remove('active_comment')
+            all_comment[0][2].classList.remove('active_comment')
+            all_comment[0][3].classList.remove('active_comment')
+            all_comment[0][4].classList.remove('active_comment')
+            all_comment[0][5].classList.remove('active_comment')
+            all_comment[0][6].classList.remove('active_comment')
+
+            // finished remove
+
+            all_comment[0][0].classList.add('not_visible')
+            all_comment[0][1].classList.add('active_comment')
+            all_comment[0][2].classList.add('not_visible')
+            all_comment[0][3].classList.add('not_visible')
+            all_comment[0][4].classList.add('not_visible')
+            all_comment[0][5].classList.add('not_visible')
+            all_comment[0][6].classList.add('not_visible')
+        }
+
+        else if (event.currentTarget.querySelector('.p_point').textContent === "3") {
+            // remove all active_class from active points
+
+            all_points[0][0].classList.remove('active_point')
+            all_points[0][1].classList.remove('active_point')
+            all_points[0][2].classList.remove('active_point')
+            all_points[0][3].classList.remove('active_point')
+            all_points[0][4].classList.remove('active_point')
+            all_points[0][5].classList.remove('active_point')
+            all_points[0][6].classList.remove('active_point')
+
+            // finished remove
+
+            // add active point on click point
+
+            event.currentTarget.classList.add('active_point')
+
+            // finished active point on click point
+
+            // remove all class
+            all_comment[0][0].classList.remove('not_visible')
+            all_comment[0][1].classList.remove('not_visible')
+            all_comment[0][2].classList.remove('not_visible')
+            all_comment[0][3].classList.remove('not_visible')
+            all_comment[0][4].classList.remove('not_visible')
+            all_comment[0][5].classList.remove('not_visible')
+            all_comment[0][6].classList.remove('not_visible')
+
+            all_comment[0][0].classList.remove('active_comment')
+            all_comment[0][1].classList.remove('active_comment')
+            all_comment[0][2].classList.remove('active_comment')
+            all_comment[0][3].classList.remove('active_comment')
+            all_comment[0][4].classList.remove('active_comment')
+            all_comment[0][5].classList.remove('active_comment')
+            all_comment[0][6].classList.remove('active_comment')
+
+            // finished remove
+
+            all_comment[0][0].classList.add('not_visible')
+            all_comment[0][1].classList.add('not_visible')
+            all_comment[0][2].classList.add('active_comment')
+            all_comment[0][3].classList.add('not_visible')
+            all_comment[0][4].classList.add('not_visible')
+            all_comment[0][5].classList.add('not_visible')
+            all_comment[0][6].classList.add('not_visible')
+        }
+
+        else if (event.currentTarget.querySelector('.p_point').textContent === "4") {
+            // remove all active_class from active points
+
+            all_points[0][0].classList.remove('active_point')
+            all_points[0][1].classList.remove('active_point')
+            all_points[0][2].classList.remove('active_point')
+            all_points[0][3].classList.remove('active_point')
+            all_points[0][4].classList.remove('active_point')
+            all_points[0][5].classList.remove('active_point')
+            all_points[0][6].classList.remove('active_point')
+
+            // finished remove
+
+            // add active point on click point
+
+            event.currentTarget.classList.add('active_point')
+
+            // finished active point on click point
+
+            // remove all class
+            all_comment[0][0].classList.remove('not_visible')
+            all_comment[0][1].classList.remove('not_visible')
+            all_comment[0][2].classList.remove('not_visible')
+            all_comment[0][3].classList.remove('not_visible')
+            all_comment[0][4].classList.remove('not_visible')
+            all_comment[0][5].classList.remove('not_visible')
+            all_comment[0][6].classList.remove('not_visible')
+
+            all_comment[0][0].classList.remove('active_comment')
+            all_comment[0][1].classList.remove('active_comment')
+            all_comment[0][2].classList.remove('active_comment')
+            all_comment[0][3].classList.remove('active_comment')
+            all_comment[0][4].classList.remove('active_comment')
+            all_comment[0][5].classList.remove('active_comment')
+            all_comment[0][6].classList.remove('active_comment')
+
+            // finished remove
+
+            all_comment[0][0].classList.add('not_visible')
+            all_comment[0][1].classList.add('not_visible')
+            all_comment[0][2].classList.add('not_visible')
+            all_comment[0][3].classList.add('active_comment')
+            all_comment[0][4].classList.add('not_visible')
+            all_comment[0][5].classList.add('not_visible')
+            all_comment[0][6].classList.add('not_visible')
+        }
+
+        else if (event.currentTarget.querySelector('.p_point').textContent === "5") {
+            // remove all active_class from active points
+
+            all_points[0][0].classList.remove('active_point')
+            all_points[0][1].classList.remove('active_point')
+            all_points[0][2].classList.remove('active_point')
+            all_points[0][3].classList.remove('active_point')
+            all_points[0][4].classList.remove('active_point')
+            all_points[0][5].classList.remove('active_point')
+            all_points[0][6].classList.remove('active_point')
+
+            // finished remove
+
+            // add active point on click point
+
+            event.currentTarget.classList.add('active_point')
+
+            // finished active point on click point
+
+            // remove all class
+            all_comment[0][0].classList.remove('not_visible')
+            all_comment[0][1].classList.remove('not_visible')
+            all_comment[0][2].classList.remove('not_visible')
+            all_comment[0][3].classList.remove('not_visible')
+            all_comment[0][4].classList.remove('not_visible')
+            all_comment[0][5].classList.remove('not_visible')
+            all_comment[0][6].classList.remove('not_visible')
+
+            all_comment[0][0].classList.remove('active_comment')
+            all_comment[0][1].classList.remove('active_comment')
+            all_comment[0][2].classList.remove('active_comment')
+            all_comment[0][3].classList.remove('active_comment')
+            all_comment[0][4].classList.remove('active_comment')
+            all_comment[0][5].classList.remove('active_comment')
+            all_comment[0][6].classList.remove('active_comment')
+
+            // finished remove
+
+            all_comment[0][0].classList.add('not_visible')
+            all_comment[0][1].classList.add('not_visible')
+            all_comment[0][2].classList.add('not_visible')
+            all_comment[0][3].classList.add('not_visible')
+            all_comment[0][4].classList.add('active_comment')
+            all_comment[0][5].classList.add('not_visible')
+            all_comment[0][6].classList.add('not_visible')
+        }
+
+        else if (event.currentTarget.querySelector('.p_point').textContent === "6") {
+            // remove all active_class from active points
+
+            all_points[0][0].classList.remove('active_point')
+            all_points[0][1].classList.remove('active_point')
+            all_points[0][2].classList.remove('active_point')
+            all_points[0][3].classList.remove('active_point')
+            all_points[0][4].classList.remove('active_point')
+            all_points[0][5].classList.remove('active_point')
+            all_points[0][6].classList.remove('active_point')
+
+            // finished remove
+
+            // add active point on click point
+
+            event.currentTarget.classList.add('active_point')
+
+            // finished active point on click point
+
+            // remove all class
+            all_comment[0][0].classList.remove('not_visible')
+            all_comment[0][1].classList.remove('not_visible')
+            all_comment[0][2].classList.remove('not_visible')
+            all_comment[0][3].classList.remove('not_visible')
+            all_comment[0][4].classList.remove('not_visible')
+            all_comment[0][5].classList.remove('not_visible')
+            all_comment[0][6].classList.remove('not_visible')
+
+            all_comment[0][0].classList.remove('active_comment')
+            all_comment[0][1].classList.remove('active_comment')
+            all_comment[0][2].classList.remove('active_comment')
+            all_comment[0][3].classList.remove('active_comment')
+            all_comment[0][4].classList.remove('active_comment')
+            all_comment[0][5].classList.remove('active_comment')
+            all_comment[0][6].classList.remove('active_comment')
+
+            // finished remove
+
+            all_comment[0][0].classList.add('not_visible')
+            all_comment[0][1].classList.add('not_visible')
+            all_comment[0][2].classList.add('not_visible')
+            all_comment[0][3].classList.add('not_visible')
+            all_comment[0][4].classList.add('not_visible')
+            all_comment[0][5].classList.add('active_comment')
+            all_comment[0][6].classList.add('not_visible')
+        }
+
+        else if (event.currentTarget.querySelector('.p_point').textContent === "7") {
+            // remove all active_class from active points
+
+            all_points[0][0].classList.remove('active_point')
+            all_points[0][1].classList.remove('active_point')
+            all_points[0][2].classList.remove('active_point')
+            all_points[0][3].classList.remove('active_point')
+            all_points[0][4].classList.remove('active_point')
+            all_points[0][5].classList.remove('active_point')
+            all_points[0][6].classList.remove('active_point')
+
+            // finished remove
+
+            // add active point on click point
+
+            event.currentTarget.classList.add('active_point')
+
+            // finished active point on click point
+
+            // remove all class
+            all_comment[0][0].classList.remove('not_visible')
+            all_comment[0][1].classList.remove('not_visible')
+            all_comment[0][2].classList.remove('not_visible')
+            all_comment[0][3].classList.remove('not_visible')
+            all_comment[0][4].classList.remove('not_visible')
+            all_comment[0][5].classList.remove('not_visible')
+            all_comment[0][6].classList.remove('not_visible')
+
+            all_comment[0][0].classList.remove('active_comment')
+            all_comment[0][1].classList.remove('active_comment')
+            all_comment[0][2].classList.remove('active_comment')
+            all_comment[0][3].classList.remove('active_comment')
+            all_comment[0][4].classList.remove('active_comment')
+            all_comment[0][5].classList.remove('active_comment')
+            all_comment[0][6].classList.remove('active_comment')
+
+            // finished remove
+
+            all_comment[0][0].classList.add('not_visible')
+            all_comment[0][1].classList.add('not_visible')
+            all_comment[0][2].classList.add('not_visible')
+            all_comment[0][3].classList.add('not_visible')
+            all_comment[0][4].classList.add('not_visible')
+            all_comment[0][5].classList.add('not_visible')
+            all_comment[0][6].classList.add('active_comment')
+        }
+
+        else {
+            return "NotFoundReview"
+        }
+    })
+}
+
+let i = 1;
+
+setInterval(() => {
+    console.log('next slide')
+    i+=1
+    console.log(i)
+
+    if (i === 7) {
+        i=0
+    }
+
+}, 5000)
